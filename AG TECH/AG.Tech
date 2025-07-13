@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AG Tech – Crash & Security Testing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Roboto', sans-serif; margin: 0; background: #f4f6f8; color: #222; }
+    header { background: #0d0d2b; color: white; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; }
+    header img { height: 40px; }
+    nav a { color: white; margin-left: 20px; text-decoration: none; font-weight: bold; }
+    .hero { background: url('https://cdn.pixabay.com/photo/2015/11/07/11/53/crash-test-1039382_1280.jpg') center/cover; color: white; padding: 120px 40px; text-align: center; }
+    .hero h1 { font-size: 3em; margin-bottom: 10px; }
+    .section { padding: 60px 40px; max-width: 1200px; margin: auto; }
+    .section h2 { font-size: 2em; margin-bottom: 20px; }
+    .features { display: flex; flex-wrap: wrap; gap: 30px; }
+    .feature { background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 30px; flex: 1; min-width: 280px; }
+    .team, .facility { display: flex; gap: 30px; flex-wrap: wrap; }
+    .team img, .facility img { border-radius: 12px; width: 100%; max-width: 350px; height: auto; }
+    .contact { background: #eaf0f6; border-radius: 12px; padding: 40px; }
+    footer { background: #0d0d2b; color: white; text-align: center; padding: 20px; }
+    input, textarea { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ccc; border-radius: 8px; }
+    button { background: #008c9e; color: white; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/AGTech.Ger.png" alt="AG Tech Logo">
+    <nav>
+      <a href="#about">Über uns</a>
+      <a href="#services">Leistungen</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>AG Tech – Sicherheit durch Präzision</h1>
+    <p>Crash- und Security-Tests auf höchstem Niveau</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>Über uns</h2>
+    <p>AG Tech ist ein führendes deutsches Prüfinstitut für Fahrzeug- und Sicherheitstests. Mit über 40 Spezialisten führen wir Crashtests, Komponententests und Cybersecurity-Analysen für Autos, Motorräder und industrielle Anwendungen durch.</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Unsere Leistungen</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Fahrzeug-Crash-Tests</h3>
+        <p>Frontal-, Seiten-, Heck- und Überschlag-Tests mit modernster Sensorik und Highspeed-Kameras.</p>
+      </div>
+      <div class="feature">
+        <h3>Komponenten- und Sled-Tests</h3>
+        <p>Tests einzelner Fahrzeugteile wie Airbags, Sitze oder Innenstruktur auf unserem Schlittenprüfstand.</p>
+      </div>
+      <div class="feature">
+        <h3>Security- und Penetrationstests</h3>
+        <p>Analyse und Absicherung von Steuergeräten, Fahrzeugnetzwerken und Software gegen Cyberangriffe.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="section">
+    <h2>Unser Team</h2>
+    <div class="team">
+      <img src="https://cdn.pixabay.com/photo/2020/04/03/20/59/engineers-5002595_960_720.jpg" alt="Ingenieur Team">
+      <img src="https://cdn.pixabay.com/photo/2017/03/17/17/46/engineer-2159763_1280.jpg" alt="Testlabor">
+    </div>
+    <p>Unser Team besteht aus erfahrenen Ingenieur:innen, Sicherheitsexpert:innen und IT-Spezialist:innen mit über 15 Jahren Branchenerfahrung.</p>
+  </section>
+
+  <section id="facility" class="section">
+    <h2>Unsere Testanlage</h2>
+    <div class="facility">
+      <img src="https://cdn.pixabay.com/photo/2020/04/21/09/27/industry-5069796_960_720.jpg" alt="Crash Halle">
+      <img src="https://cdn.pixabay.com/photo/2018/04/18/18/56/technology-3330261_1280.jpg" alt="Prüfstand">
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Kontaktieren Sie uns</h2>
+    <form>
+      <input type="text" placeholder="Ihr Name" required>
+      <input type="email" placeholder="Ihre E-Mail" required>
+      <textarea placeholder="Ihre Nachricht" rows="5"></textarea>
+      <button type="submit">Absenden</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AG Tech GmbH – Alle Rechte vorbehalten</p>
+  </footer>
+</body>
+</html>
